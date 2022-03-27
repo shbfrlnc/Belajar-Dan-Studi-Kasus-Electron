@@ -1,0 +1,42 @@
+{
+  "name": "studi-kasus-electron-mempackage-dan-memproteksi-aplikasi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "compile": "node compile.js",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "SWLRNSHW-200",
+  "license": "ISC",
+  "build": {
+    "appId": "com.yourdomain",
+    "productName": "YourProductName",
+    "publish": null,
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.png"
+    },
+    "asar": false,
+    "directories": {
+      "output": "./dist"
+    },
+    "files": [
+      "**/*",
+      "!src",
+      "!compile.js"
+    ],
+    "extraFiles": [
+      "NOTICE"
+    ]
+  },
+  "devDependencies": {
+    "copy-dir": "^1.3.0",
+    "electron": "^13.1.4",
+    "electron-builder": "^22.11.7",
+    "javascript-obfuscator": "^2.15.5"
+  }
+}
