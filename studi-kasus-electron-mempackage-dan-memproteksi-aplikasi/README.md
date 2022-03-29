@@ -121,8 +121,12 @@ HTML, CSS, JSON, dan script yang ada di dalam node_modules dalam artikel ini, ti
 
 Jadi, ketika kode asli dianggap selesai, kita hanya perlu menjalankan perintah compile, kemudian dilanjutkan dengan mem-build installernya.
 
-## Traktir
+## Info Tambahan
 
-Traktir saya di sini:
+Traktir Saya:
 
 https://sociabuzz.com/lsfkrshb/tribe
+
+Channel YouTube Saya:
+
+https://www.youtube.com/c/shbfrlnc
