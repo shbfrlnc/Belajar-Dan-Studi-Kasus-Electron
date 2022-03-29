@@ -120,3 +120,9 @@ Selain itu, dalam contoh di artikel ini, tidak semua kode di-obfuscate.
 HTML, CSS, JSON, dan script yang ada di dalam node_modules dalam artikel ini, tidak di-obfuscate.
 
 Jadi, ketika kode asli dianggap selesai, kita hanya perlu menjalankan perintah compile, kemudian dilanjutkan dengan mem-build installernya.
+
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

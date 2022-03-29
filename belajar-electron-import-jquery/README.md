@@ -62,3 +62,8 @@ win = new BrowserWindow({
 });
 ```
 
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

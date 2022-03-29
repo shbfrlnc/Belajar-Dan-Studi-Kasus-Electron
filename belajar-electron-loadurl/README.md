@@ -52,3 +52,8 @@ app.on('ready', () => {
 })
 ```
 
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

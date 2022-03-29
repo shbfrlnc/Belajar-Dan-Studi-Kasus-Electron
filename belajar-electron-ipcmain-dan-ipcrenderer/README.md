@@ -102,3 +102,8 @@ $(document).ready(function () {
 });
 ```
 
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

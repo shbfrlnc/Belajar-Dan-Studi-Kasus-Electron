@@ -23,3 +23,9 @@ npm run dev
 Remote module sudah di-remove di Electron 14.
 
 Silakan dilewatkan.
+
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

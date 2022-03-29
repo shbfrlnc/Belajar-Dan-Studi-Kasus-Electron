@@ -66,3 +66,8 @@ app.on('ready', async () => {
 });
 ```
 
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

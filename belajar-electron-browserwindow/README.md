@@ -51,3 +51,9 @@ Untuk penjelasannya, baca komentar dari kode di atas.
 Perlu diketahui bahwa di Electron, "//" atau "/* ... */" adalah komentar.
 
 Kode yang ada di dalam komentar tidak akan dieksekusi.
+
+## Trakir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe
