@@ -46,13 +46,13 @@ let win;
 
 // ketika app ready
 app.on('ready', async () => {
-	// buat BrowserWindow
+    // buat BrowserWindow
     win = new BrowserWindow();
 
-	// buka save dialog
-	// judulnya: Judul Dialog
-	// path default nya: D:
-	// filter untuk jenis file JavaScript
+    // buka save dialog
+    // judulnya: Judul Dialog
+    // path default nya: D:
+    // filter untuk jenis file JavaScript
     const result = await dialog.showSaveDialog(win, {
         title: 'Judul Dialog',
         defaultPath: 'D:\\',
@@ -66,12 +66,4 @@ app.on('ready', async () => {
 });
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

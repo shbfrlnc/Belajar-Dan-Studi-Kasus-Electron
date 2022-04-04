@@ -48,11 +48,11 @@ Di file HTML tadi kita mengimpor JQuery dan CSS dan JS dari Metro CSS.
 <body>
     <button id="btn-open-video" class="button outline large alert w-100">Open Video</button>
     <div id="my-video">
-    	<!-- video akan dipasang di sini -->
+        <!-- video akan dipasang di sini -->
     </div>
 
     <script>
-    	// cara import jquery di renderer process
+        // cara import jquery di renderer process
         window.jQuery = require('./vendor/jquery/jquery.min.js');
         window.$ = window.jQuery;
     </script>
@@ -80,28 +80,20 @@ const {
 
 // ketika dokumen ready
 $(document).ready(async function () {
-	// ketika button dengan id btn-open-video diklik
+    // ketika button dengan id btn-open-video diklik
     $('#btn-open-video').click(async function () {
-    	// buka open dialog untuk file
+        // buka open dialog untuk file
         let ret = await dialog.showOpenDialog({
             properties: ['openFile']
         });
-		
-		// bersihkan elemen di bawah elemen dengan id my-video
+
+        // bersihkan elemen di bawah elemen dengan id my-video
         $('#my-video').empty();
-        
+
         // append dengan elemen video (bawaan dari metro css)
         $('#my-video').html(`<video data-role="video-player" data-src="${ret.filePaths[0]}"></video>`);
     });
 });
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

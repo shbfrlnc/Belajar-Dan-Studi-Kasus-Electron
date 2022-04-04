@@ -52,12 +52,4 @@ Perlu diketahui bahwa di Electron, "//" atau "/* ... */" adalah komentar.
 
 Kode yang ada di dalam komentar tidak akan dieksekusi.
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

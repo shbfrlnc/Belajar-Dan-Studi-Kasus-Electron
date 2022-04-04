@@ -44,10 +44,10 @@ let win;
 
 // ketika app ready
 app.on('ready', async () => {
-	// buat browser window
+    // buat browser window
     win = new BrowserWindow();
 
-	// dialog untuk membuka file, uncomment untuk mencobanya
+    // dialog untuk membuka file, uncomment untuk mencobanya
     // const result = await dialog.showOpenDialog(win, {
     //     title: 'Open Project File',
     //     properties: [
@@ -62,7 +62,7 @@ app.on('ready', async () => {
     // });
     // console.log(result); //perhatikan hasilnya
 
-	//dialog untuk membuka directory
+    //dialog untuk membuka directory
     const result = await dialog.showOpenDialog(win, {
         title: 'Open Project Folder',
         properties: [
@@ -73,12 +73,4 @@ app.on('ready', async () => {
 })
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

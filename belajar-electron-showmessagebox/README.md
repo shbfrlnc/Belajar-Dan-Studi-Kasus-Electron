@@ -46,33 +46,33 @@ let win;
 
 // ketika app ready
 app.on('ready', async () => {
-	// buat BrowserWindow
+    // buat BrowserWindow
     win = new BrowserWindow();
 
-	// message box biasa, uncomment untuk mencobanya
+    // message box biasa, uncomment untuk mencobanya
     // await dialog.showMessageBox({
     //     message: 'Hello World'
     // });
 
-	// message box modal. jadi message box ini menutupi parent window nya.
-	// uncomment untuk mencobanya
+    // message box modal. jadi message box ini menutupi parent window nya.
+    // uncomment untuk mencobanya
     // await dialog.showMessageBox(win, {
     //     message: 'Hello World'
     // });
 
-	// message box error, uncomment untuk mencobanya
+    // message box error, uncomment untuk mencobanya
     // await dialog.showMessageBox({
     //     message: 'Hello World',
     //     type: 'error'
     // });
 
-	// message box info, uncomment untuk mencobanya
+    // message box info, uncomment untuk mencobanya
     // await dialog.showMessageBox({
     //     message: 'Hello World',
     //     type: 'info'
     // });
 
-	// return value dari message box, uncomment untuk mencobanya
+    // return value dari message box, uncomment untuk mencobanya
     // const buttonID = await dialog.showMessageBox({
     //     message: 'Hello World',
     //     buttons: [
@@ -83,7 +83,7 @@ app.on('ready', async () => {
     // });
     // console.log(buttonID);
 
-	// message box dengan checkbox, uncomment untuk mencobanya
+    // message box dengan checkbox, uncomment untuk mencobanya
     // const buttonID = await dialog.showMessageBox({
     //     message: 'Hello World',
     //     buttons: [
@@ -97,13 +97,3 @@ app.on('ready', async () => {
     // console.log(buttonID);
 });
 ```
-
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC

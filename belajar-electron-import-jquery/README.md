@@ -40,7 +40,7 @@ Mengimpor JQuery untuk digunakan dalam electron perlu diperhatikan karena carany
 <body>
     <h1>Import JQuery</h1>
     <script>
-    	// cara mengimpor jQuery di Electron
+        // cara mengimpor jQuery di Electron
         window.jQuery = require("./jquery.min.js"); // require
         window.$ = window.jQuery; // assign
     </script>
@@ -55,19 +55,11 @@ Selanjutnya, saat membuat BrowserWindow:
 ```
 win = new BrowserWindow({
     webPreferences: { //gunakan konfigurasi ini
-    	contextIsolation: false,
-    	enableRemoteModule: true,
-    	nodeIntegration: true
+        contextIsolation: false,
+        enableRemoteModule: true,
+        nodeIntegration: true
     }
 });
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

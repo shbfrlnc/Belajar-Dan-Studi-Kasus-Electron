@@ -41,23 +41,15 @@ let win;
 
 // ketika app ready
 app.on('ready', () => {
-	// buat BrowserWindow
+    // buat BrowserWindow
     win = new BrowserWindow();
-    
+
     // load dengan input URL di web
     // win.loadURL("https://duckduckgo.com");
-    
+
     // load dengan input URL di file lokal
     win.loadURL(`file://${__dirname}/index.html`);
 })
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

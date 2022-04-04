@@ -46,11 +46,11 @@ Yang perlu Anda ketahui tentang starter di poin 2 adalah, bahwa kode starter ter
 // file: main.js
 
 if (process.argv.length >= 3) { 
-	// jika ada parameter --debug saat aplikasi dijalankan
+    // jika ada parameter --debug saat aplikasi dijalankan
     if (process.argv[2] == "--debug") {
         require("./src/app.js");
     } else {
-    	// kalau tidak ada parameter --debug
+        // kalau tidak ada parameter --debug
         require("./srcc/app.js");
     }
 } else {
@@ -85,7 +85,7 @@ function walkDirRecursive(pathInput) {
         } else {
             if (val.name.includes('.js')) { //hanya file js
                 console.log("INCLUDED: " + pathInput + '/' + val.name);
-                
+
                 // mulai meng-obfuscate
                 let scriptContent = fs.readFileSync(pathInput + '/' + val.name, 'utf8');
                 let obfuscationResult = JavaScriptObfuscator.obfuscate(scriptContent, {
@@ -121,12 +121,4 @@ HTML, CSS, JSON, dan script yang ada di dalam node_modules dalam artikel ini, ti
 
 Jadi, ketika kode asli dianggap selesai, kita hanya perlu menjalankan perintah compile, kemudian dilanjutkan dengan mem-build installernya.
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

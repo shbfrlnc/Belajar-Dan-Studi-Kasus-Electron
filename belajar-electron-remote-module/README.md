@@ -24,12 +24,4 @@ Remote module sudah di-remove di Electron 14.
 
 Silakan dilewatkan.
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

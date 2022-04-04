@@ -44,7 +44,7 @@ let win;
 
 // ketika app ready
 app.on('ready', () => {
-	// buat BrowserWindow dengan webPreferencesnya
+    // buat BrowserWindow dengan webPreferencesnya
     win = new BrowserWindow({
         webPreferences: {
             contextIsolation: false,
@@ -53,17 +53,17 @@ app.on('ready', () => {
         }
     });
 
-	//load index.html
+    //load index.html
     win.loadURL(`file://${__dirname}/index.html`);
 });
 
 // di sini kita meng-handle event "button-click" yang dikirimkan dari renderer process
 ipcMain.on('button-click', (event, args) => {
     console.log("my name is " + args.name + " and my age is: " + args.age);
-    
+
     // reply ke pemanggil
     event.reply('button-click-reply', 'reply from main process (button-click)');
-    
+
     // reply dengan webContents.send
     win.webContents.send('from-win-webcontents-send', 'reply from win.webContents.send');
 });
@@ -84,30 +84,22 @@ const {
 // ketika dokumen html ready
 $(document).ready(function () {
 
-	// ketika button dengan id: btn-send-to-main-process diklik
+    // ketika button dengan id: btn-send-to-main-process diklik
     $('#btn-send-to-main-process').click(function () {
-    	// kirim event ke main process
+        // kirim event ke main process
         ipcRenderer.send('button-click', { name: "swlrnshw-200", age: "30an" });
     })
-	
-	// balasan dari main process (dengan event.reply di main process)
+
+    // balasan dari main process (dengan event.reply di main process)
     ipcRenderer.on('button-click-reply', (event, args) => {
         alert(args);
     });
 
-	// balasan dari main process (dengan webContents.send)
+    // balasan dari main process (dengan webContents.send)
     ipcRenderer.on('from-win-webcontents-send', (event, args) => {
         alert(args);
     });
 });
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

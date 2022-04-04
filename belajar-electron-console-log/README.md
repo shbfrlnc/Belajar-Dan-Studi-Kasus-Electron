@@ -67,12 +67,4 @@ Jika Anda meng-uncomment baris ini di app.js:
 
 Maka Anda juga akan mendapati teks "Console Log di main process" muncul pada console di operating system Anda.
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 
