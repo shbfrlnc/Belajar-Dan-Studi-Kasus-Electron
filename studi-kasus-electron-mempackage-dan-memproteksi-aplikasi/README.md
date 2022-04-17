@@ -15,7 +15,27 @@ npm install
  Selanjutnya, jalankan:
 
 ```
+// untuk menjalankan kode versi plaintext
 npm run dev
+```
+
+Atau obfuscate dahulu:
+
+```
+npm run compile
+```
+
+Kemudian, jalankan:
+
+```
+// untuk menjalankan kode versi obfuscated
+npm start 
+```
+
+Dan untuk mem-build-nya menjadi installer:
+
+```
+npm run dist 
 ```
 
 ## Pendahuluan

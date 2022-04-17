@@ -39,30 +39,38 @@ let win;
 
 // ketika app ready
 app.on('ready', () => {
-    win = new BrowserWindow(); // buat Browser Window
+    // buat Browser Window
+    win = new BrowserWindow();
 
-    win.loadURL(`file://${__dirname}/index.html`); // buka URL dari index.html
+    // buka URL dari index.html
+    win.loadURL(`file://${__dirname}/index.html`);
 
-    // console.log("Console Log di main process"); // ini dilakukan di main process
+    // ini dilakukan di main process
+    // console.log("Console Log di main process");
 })
 ```
 
 ```
 // file: index.js
 
-console.log("Console Log di renderer process") // kali ini dilakukan di main process via script tag
+// kali ini dilakukan di main process via script tag
+console.log("Console Log di renderer process");
 ```
 
 Artinya teks akan muncul di console inspector sesuai dengan yang ada pada index.js:
 
 ```
-console.log("Console Log di renderer process") // kali ini dilakukan di main process via script tag
+// kali ini dilakukan di main process via script tag
+console.log("Console Log di renderer process") 
 ```
 
 Jika Anda meng-uncomment baris ini di app.js:
 
 ```
-// console.log("Console Log di main process"); // ini dilakukan di main process
+// file: app.js
+
+// ini dilakukan di main process
+// console.log("Console Log di main process"); 
 ```
 
 Maka Anda juga akan mendapati teks "Console Log di main process" muncul pada console di operating system Anda.

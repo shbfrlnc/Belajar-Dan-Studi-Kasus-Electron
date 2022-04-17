@@ -36,11 +36,13 @@ const {
 } = require('electron');
 //end: import modules
 
-let win; //buat variable penampung objek browser window
+//buat variable penampung objek browser window
+let win;
 
 //saat app ready
 app.on('ready', () => {
-    win = new BrowserWindow(); //buat browser window
+    
+    win = new BrowserWindow();
 });
 ```
 
