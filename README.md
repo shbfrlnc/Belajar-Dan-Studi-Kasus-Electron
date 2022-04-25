@@ -28,8 +28,8 @@ Berikut ini daftar artikelnya:
 
 - [Studi Kasus Electron Mem-package dan Memproteksi Aplikasi](https://github.com/shbfrlnc/Belajar-Dan-Studi-Kasus-Electron/tree/main/studi-kasus-electron-mempackage-dan-memproteksi-aplikasi)
 
-## Info Tambahan
+## More Info
 
-Traktir Saya, Channel YouTube Saya, dan lain-lain:
+Support me, my youtube channel, etc:
 
-- https://sociabuzz.com/lsfkrshb
+- https://shbfrlnc.github.io
